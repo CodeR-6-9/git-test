@@ -37,3 +37,7 @@ const [x,y]=nums;
 console.log(x);
 console.log(y);
 
+//spread operator
+const nums1=[...arr,...nums];
+console.log(nums1)
+
