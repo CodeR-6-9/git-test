@@ -37,7 +37,7 @@ const [x,y]=nums;
 console.log(x);
 console.log(y);
 
-//spread operator
+//spread operator, we can also copy (by value) array using this const arrnew= [...arr]
 const nums1=[...arr,...nums];
 console.log(nums1)
 
